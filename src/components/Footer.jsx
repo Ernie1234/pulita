@@ -16,34 +16,37 @@ function Footer() {
         <div className="flex gap-5">
           <Link to="www.facebook.com/pulita" target="_blank" rel="noreferrer">
             <FaFacebook
-              className="text-gray-100 hover:text-gray-200"
+              className="text-gray-100 hover:text-gray-200 hover:scale-90 transition-all duration-300 ease-in-out"
               size={30}
             />
           </Link>
           <Link to="www.facebook.com/pulita" target="_blank" rel="noreferrer">
             <FaXTwitter
-              className="text-gray-100 hover:text-gray-200"
+              className="text-gray-100 hover:text-gray-200 hover:scale-90 transition-all duration-300 ease-in-out"
               size={30}
             />
           </Link>
           <Link to="www.facebook.com/pulita" target="_blank" rel="noreferrer">
             <FaInstagram
-              className="text-gray-100 hover:text-gray-200"
+              className="text-gray-100 hover:text-gray-200 hover:scale-90 transition-all duration-300 ease-in-out"
               size={30}
             />
           </Link>
           <Link to="www.facebook.com/pulita" target="_blank" rel="noreferrer">
             <IoLogoLinkedin
-              className="text-gray-100 hover:text-gray-200"
+              className="text-gray-100 hover:text-gray-200 hover:scale-90 transition-all duration-300 ease-in-out"
               size={30}
             />
           </Link>
           <Link to="www.facebook.com/pulita" target="_blank" rel="noreferrer">
-            <FaGoogle className="text-gray-100 hover:text-gray-200" size={30} />
+            <FaGoogle
+              className="text-gray-100 hover:text-gray-200 hover:scale-90 transition-all duration-300 ease-in-out"
+              size={30}
+            />
           </Link>
           <Link to="www.facebook.com/pulita" target="_blank" rel="noreferrer">
             <FaYoutube
-              className="text-gray-100 hover:text-gray-200"
+              className="text-gray-100 hover:text-gray-200 hover:scale-90 transition-all duration-300 ease-in-out"
               size={30}
             />
           </Link>
