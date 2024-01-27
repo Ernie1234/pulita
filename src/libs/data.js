@@ -11,13 +11,8 @@ export const pageLinks = [
   },
   {
     id: 3,
-    path: "/contact",
-    text: "contact",
-  },
-  {
-    id: 4,
-    path: "/whitePaper",
-    text: "White Paper",
+    path: "/service",
+    text: "service",
   },
 ];
 export const coinData = [
