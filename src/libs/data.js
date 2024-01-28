@@ -16,8 +16,8 @@ export const pageLinks = [
   },
   {
     id: 4,
-    path: "/product",
-    text: "product",
+    path: "/products",
+    text: "products",
   },
 ];
 
