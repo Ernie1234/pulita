@@ -47,8 +47,8 @@ function NavBar() {
                     <NavLink
                       to={link.path}
                       className={({ isActive }) =>
-                        `capitalize text-xl flex justify-center items-center gap-1 font-light hover:font-normal transition-all duration-300 ease-in-out  ${
-                          isActive ? "" : ""
+                        `capitalize text-xl flex justify-center items-center gap-1 font-normal text-gray-500 hover:text-black transition-all duration-300 ease-in-out  ${
+                          isActive ? "text-black" : ""
                         }`
                       }
                     >

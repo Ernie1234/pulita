@@ -14,18 +14,29 @@ export const pageLinks = [
     path: "/service",
     text: "service",
   },
+  {
+    id: 4,
+    path: "/product",
+    text: "product",
+  },
 ];
-export const coinData = [
+
+export const sliderImg = [
   {
     id: 1,
-    url: "/assets/ethereum coin.png",
-    name: "ethereum",
+    imgUrl: "/assets/Property 1=Default.png",
   },
-  { id: 2, url: "/assets/bitcoin coin.png", name: "bitcoin" },
+  {
+    id: 2,
+    imgUrl: "/assets/Property 1=Variant2.png",
+  },
   {
     id: 3,
-    url: "/assets/Solana.png",
-    name: "Solana",
+    imgUrl: "/assets/Property 1=Variant3.png",
+  },
+  {
+    id: 4,
+    imgUrl: "/assets/Property 1=Variant4.png",
   },
 ];
 
