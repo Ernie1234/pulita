@@ -1,3 +1,5 @@
+export { default as Achievements } from "./Achievements";
+export { default as Horizontal } from "./Horizontal";
 export { default as Jumbotron } from "./Jumbotron";
 export { default as Carousel } from "./Carousel";
 export { default as WhoWeAre } from "./WhoWeAre";

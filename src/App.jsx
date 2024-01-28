@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import { Footer, NavBar } from "./components";
-import { About, Contact, Home, NotFound, Service } from "./routes";
+import { About, Contact, Home, NotFound, Products, Service } from "./routes";
 
 export default function App() {
   return (
@@ -12,6 +12,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/service" element={<Service />} />
+        <Route path="/products" element={<Products />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

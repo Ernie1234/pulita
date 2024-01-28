@@ -39,6 +39,68 @@ export const sliderImg = [
     imgUrl: "/assets/Property 1=Variant4.png",
   },
 ];
+export const certificate = [
+  {
+    id: 1,
+    imgUrl: "/assets/Blurr.png",
+  },
+  {
+    id: 2,
+    imgUrl: "/assets/Blurr2.png",
+  },
+  {
+    id: 3,
+    imgUrl: "/assets/Blurr.png",
+  },
+  {
+    id: 4,
+    imgUrl: "/assets/Blurr2.png",
+  },
+  {
+    id: 5,
+    imgUrl: "/assets/Blurr.png",
+  },
+  {
+    id: 6,
+    imgUrl: "/assets/Blurr2.png",
+  },
+];
+export const achievement = [
+  {
+    id: 1,
+    imgUrl: "/assets/achievement1.png",
+    title: "Cooperation with college of Environment, Tsinghua University",
+  },
+  {
+    id: 2,
+    imgUrl: "/assets/achievement2.png",
+    title: "Cooperation with college of Energy, Xiamen University",
+  },
+  {
+    id: 3,
+    imgUrl: "/assets/achievement2.png",
+    title: "Cooperation with college of Energy, Xiamen University",
+  },
+];
+
+export const service = [
+  {
+    id: 1,
+    imgUrl: "/assets/service1.png",
+  },
+  {
+    id: 2,
+    imgUrl: "/assets/service2.png",
+  },
+  {
+    id: 3,
+    imgUrl: "/assets/service3.png",
+  },
+  {
+    id: 4,
+    imgUrl: "/assets/service4.png",
+  },
+];
 
 export const testimonials = [
   {
