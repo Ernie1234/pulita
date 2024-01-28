@@ -1,5 +1,11 @@
+import { WhoWeAre } from "../components";
+
 function About() {
-  return <div>About</div>;
+  return (
+    <div>
+      <WhoWeAre />
+    </div>
+  );
 }
 
 export default About;

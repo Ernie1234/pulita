@@ -73,7 +73,7 @@ function NavBar() {
       </Headroom>
       {/* mobile nav */}
       {isOpen && (
-        <div className="w-full h-full absolute top-0 bottom-0 left-0 right-0 block md:hidden bg-blue-950/70 z-40 transition-all duration-300 ease-in-out">
+        <div className="w-full h-screen fixed top-0 bottom-0 left-0 right-0 block md:hidden bg-blue-950/80 z-40 transition-all duration-300 ease-in-out">
           {isOpen && (
             <IoClose
               onClick={handleClose}
@@ -85,6 +85,7 @@ function NavBar() {
             {pageLinks.map((link) => (
               <li key={link.id} className="text-left  py-3">
                 <NavLink
+                  onClick={() => setIsOpen((prev) => !prev)}
                   to={link.path}
                   className={({ isActive }) =>
                     " capitalize text-xl block " +
@@ -97,6 +98,7 @@ function NavBar() {
             ))}
             <li className="text-left  py-3">
               <NavLink
+                onClick={() => setIsOpen((prev) => !prev)}
                 to="/contact"
                 className={({ isActive }) =>
                   " capitalize text-xl block " +
