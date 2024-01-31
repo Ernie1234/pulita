@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import { service } from "../libs/data";
 
@@ -55,19 +56,9 @@ function Service() {
               customers a satisfying answer in the shortest time
             </p>
           </div>
-          <form className="flex flex-col gap-5 md:gap-6">
-            <textarea
-              name="message"
-              id="message"
-              cols="45"
-              rows="4"
-              placeholder="Message"
-              className="w-full md:w-fit bg-gray-100 border-gray-950 border rounded-sm md:rounded-md lg:rounded-lg p-3 md:p6"
-            ></textarea>
-            <div className="w-full md:w-fit">
-              <Button title="Submit" />
-            </div>
-          </form>
+          <Link to="/contact">
+            <Button title="Contact us" />
+          </Link>
         </div>
         <div className="w-2/5 flex flexrow md:flex-col overflow-x-scroll md:overflow-y-scroll">
           {service.map((serve) => (
